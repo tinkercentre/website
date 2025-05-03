@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tinkering Lab - IIT Mandi</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.jpg" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark text-light px-0 py-2">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center">
+                    <span class="far fa-envelope me-2"></span>
+                    <span>tinkeringlab@iitmandi.ac.in</span>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center mx-n2">
+                    <span>Indian Institute of Technology Mandi:</span>
+                    <a class="btn btn-link text-light" href="https://www.iitmandi.ac.in/" target="_blank"><i
+                            class="fab fa-google"></i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img src="img/favicon.jpg" alt="Logo" class="me-2 d-none d-lg-block"
+                style="height: 50px; width: 50px; object-fit: contain;">
+            <div class="text-center">
+                <h1 class="m-0">TINKER CENTRE</h1>
+                <p class="m-0" style="font-size: 14px;">Empowering Science & Education</p>
+            </div>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="/index.html" class="nav-item nav-link active">Home</a>
+                <a href="/about.html" class="nav-item nav-link">About</a>
+                <a href="/rnd.html" class="nav-item nav-link">R&D</a>
+                <a href="/demonstration.html" class="nav-item nav-link">Demonstration</a>
+                <a href="/team.html" class="nav-item nav-link">Team</a>
+                <a href="/gallery.html" class="nav-item nav-link">Gallery</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
+                    <div class="dropdown-menu bg-light border-0 rounded-0 m-0">
+                        <a href="/book.html" class="dropdown-item">Books</a>
+                        <a href="/comic.html" class="dropdown-item">Comics</a>
+                        <a href="/web.html" class="dropdown-item">Website</a>
+                    </div>
+                </div>
+            </div>
+            <a href="/contact.html" class="btn btn-primary py-4 px-lg-4 rounded-0 d-block d-lg-block">Contact Us<i
+                    class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-4.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7">
+                                    <h2 class="text-white fs-1 mb-5 animated slideInDown">IIT MANDI</h2>
+                                    <h1 class="display-1 text-white mb-5 animated slideInDown">Making Of Atmanirbhar
+                                        Bharat
+                                    </h1>
+                                    <a href="/about.html" class="btn btn-primary py-sm-3 px-sm-4">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-3.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h2 class="text-white fs-1 mb-5 animated slideInDown">IIT MANDI</h2>
+                                    <h1 class="display-1 text-white mb-5 animated slideInDown">Tinker, Create, Learn
+                                    </h1>
+                                    <a href="/about.html" class="btn btn-primary py-sm-3 px-sm-4">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7">
+                                    <h2 class="text-white fs-1 mb-5 animated slideInDown">IIT MANDI</h2>
+                                    <h1 class="display-1 text-white mb-5 animated slideInDown">Advancing Education
+                                        Research & Science</h1>
+                                    <a href="/about.html" class="btn btn-primary py-sm-3 px-sm-4">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7">
+                                    <h2 class="text-white fs-1 mb-5 animated slideInDown">IIT MANDI</h2>
+                                    <h1 class="display-1 text-white mb-5 animated slideInDown">Where Innovation Meets
+                                        Education</h1>
+                                    <a href="/about.html" class="btn btn-primary py-sm-3 px-sm-4">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Top Feature Start -->
+    <div class="container-fluid top-feature py-5 pt-lg-0">
+        <div class="container py-5 pt-lg-0">
+            <div class="row gx-0">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
+                                <i class="fa fa-cogs text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h4>Tinker</h4>
+                                <span>Explore. Build. Discover</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
+                                <i class="fa fa-lightbulb text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h4>Create</h4>
+                                <span>Where ideas take shape</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
+                                <i class="fa fa-atom text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h4>Learn</h4>
+                                <span>Inventing starts here</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Feature End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-end">
+                <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid rounded" data-wow-delay="0.1s" src="img/about.jpg">
+                </div>
+                <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 class="display-1 text-primary mb-0">08</h1>
+                    <p class="text-primary mb-4">Years of Excellence</p>
+                    <h1 class="display-6 mb-4">Tinkering Lab – A Place to Foster Curiosity & Science Promotion at IIT Mandi</h1>
+                    <p class="mb-4">At the Tinkering Lab, we bridge the gap between theory and wonder by developing
+                        creative processes and experiments that demonstrate scientific concepts in beautiful, intuitive
+                        ways. Our hands-on approach embodies the philosophy that "Seeing is Believing"—transforming
+                        abstract principles into vivid, interactive experiences that ignite curiosity. Whether through
+                        DIY projects, immersive demonstrations, or collaborative problem-solving, we aim to demystify
+                        science and inspire lifelong learning.</p>
+                    <a class="btn btn-primary py-3 px-4" href="/about.html">Explore More</a>
+                </div>
+                <div class="col-lg-3 col-md-12 wow fadeInUp d-flex flex-column align-items-center"
+                    data-wow-delay="0.5s">
+                    <img class="img-fluid rounded mb-3" src="img/about-2.jpg" alt="Prof. Rahul Vaish">
+                    <a href="/about.html" class="text-decoration-none">
+                        <h4 class="mb-1 text-center">Prof. Rahul Vaish</h4>
+                    </a>
+                    <p class="text-primary mb-3 text-center">Tinkering Lab, Faculty In-Charge</p>
+                    <p class="fst-italic text-center">"Seeing is Believing, Doing is Learning"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Facts Start -->
+    <div class="container-fluid facts my-5 py-5" data-parallax="scroll" data-image-src="img/carousel-3.jpg">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+                    <h1 class="display-4 text-white" data-toggle="counter-up">10,000</h1>
+                    <!-- 10000 + -->
+                    <span class="fs-5 fw-semi-bold text-light">Total Visitors</span>
+                </div>
+                <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
+                    <h1 class="display-4 text-white" data-toggle="counter-up">45</h1>
+                    <span class="fs-5 fw-semi-bold text-light">Workshops</span>
+                </div>
+                <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="display-4 text-white" data-toggle="counter-up">235</h1>
+                    <span class="fs-5 fw-semi-bold text-light">Education Demonstrations</span>
+                </div>
+                <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
+                    <h1 class="display-4 text-white" data-toggle="counter-up">22</h1>
+                    <span class="fs-5 fw-semi-bold text-light">Team Members</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Facts End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-bold text-primary">Research Apparatus</p>
+                <h1 class="display-5 mb-5">Resources of the lab</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded d-flex h-100">
+                        <div class="service-img rounded">
+                            <img class="img-fluid" src="img/resources-2.jpg" alt="">
+                        </div>
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-3">
+                                <img class="img-fluid" src="img/icon/icon-2.png" alt="Icon">
+                            </div>
+                            <h4 class="mb-3">Scientific Demonstrations</h4>
+                            <p class="mb-4">Equipped with high-tech imported gadgets for hands-on experimentation and
+                                prototyping.</p>
+                            <a class="btn btn-sm" href="/demonstration.html"><i class="fa fa-plus text-primary me-2"></i>Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded d-flex h-100">
+                        <div class="service-img rounded">
+                            <img class="img-fluid" src="img/resources-1.jpg" alt="">
+                        </div>
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-3">
+                                <img class="img-fluid" src="img/icon/icon-1.png" alt="Icon">
+                            </div>
+                            <h4 class="mb-3">R&D at Tinkering Lab</h4>
+                            <p class="mb-4">Driving innovation through cutting-edge research in Material Science,
+                                Physics, and Many more.</p>
+                            <a class="btn btn-sm" href="/rnd.html"><i class="fa fa-plus text-primary me-2"></i>Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded d-flex h-100">
+                        <div class="service-img rounded">
+                            <img class="img-fluid" src="img/resources-3.jpg" alt="">
+                        </div>
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-3">
+                                <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
+                            </div>
+                            <h4 class="mb-3">Research Publications</h4>
+                            <p class="mb-4">A growing repository of research articles showcasing work at
+                                IIT Mandi.</p>
+                            <a class="btn btn-sm" href="/rnd.html"><i class="fa fa-plus text-primary me-2"></i>Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <a href="/about.html" class="btn btn-primary py-3 px-4">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-bold text-primary">Lab Apparatus</p>
+                <h1 class="display-5 mb-5">Demonstrations at a Glance</h1>
+            </div>
+            <div class="row wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-12 text-center">
+                    <ul class="list-inline rounded mb-5" id="portfolio-flters">
+                        <li class="mx-2 active" data-filter="*">All</li>
+                        <li class="mx-2" data-filter=".first">R&D</li>
+                        <li class="mx-2" data-filter=".second">Others</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container">
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner rounded">
+                        <img class="img-fluid" src="img/other-1.jpg" alt="">
+                        <div class="portfolio-text">
+                            <h4 class="text-white mb-4">Swing Carousel</h4>
+                            <div class="d-flex">
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/other-1.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="portfolio-inner rounded">
+                        <img class="img-fluid" src="img/rnd-1.jpg" alt="">
+                        <div class="portfolio-text">
+                            <h4 class="text-white mb-4">Stirling Engine</h4>
+                            <div class="d-flex">
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/rnd-1.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner rounded">
+                        <img class="img-fluid" src="img/other-3.jpg" alt="">
+                        <div class="portfolio-text">
+                            <h4 class="text-white mb-4">Drinking Bird</h4>
+                            <div class="d-flex">
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/other-3.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner rounded">
+                        <img class="img-fluid" src="img/other-2.jpg" alt="">
+                        <div class="portfolio-text">
+                            <h4 class="text-white mb-4">Balancing Bird</h4>
+                            <div class="d-flex">
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/other-2.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="portfolio-inner rounded">
+                        <img class="img-fluid" src="img/rnd-2.jpg" alt="">
+                        <div class="portfolio-text">
+                            <h4 class="text-white mb-4">Stirling Engine</h4>
+                            <div class="d-flex">
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/rnd-2.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner rounded">
+                        <img class="img-fluid" src="img/rnd-3.jpg" alt="">
+                        <div class="portfolio-text">
+                            <h4 class="text-white mb-4">Stand</h4>
+                            <div class="d-flex">
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/rnd-3.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="/demonstration.html" class="btn btn-primary py-3 px-4">View More</a>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-bold text-primary">The Minds Behind</p>
+                <h1 class="display-5 mb-5">Meet the Team</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item rounded">
+                        <img class="img-fluid" src="img/about-2.jpg" alt="">
+                        <div class="team-text">
+                            <h4 class="mb-0">Prof. Rahul Vaish</h4>
+                            <p class="text-primary">Faculty-in-Charge, Tinkering Lab, IIT Mandi</p>
+                            <div class="team-social d-flex">
+                                <a class="btn btn-square rounded-circle me-2" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square rounded-circle me-2" href=""><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item rounded">
+                        <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        <div class="team-text">
+                            <h4 class="mb-0">Mr. Shivam Dubay</h4>
+                            <p class="text-primary">Lab Coordinator</p>
+                            <div class="team-social d-flex">
+                                <a class="btn btn-square rounded-circle me-2" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square rounded-circle me-2" href=""><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item rounded">
+                        <img class="img-fluid" src="img/team-5.jpg" alt="">
+                        <div class="team-text">
+                            <h4 class="mb-0">Mr. Ruhan Das</h4>
+                            <p class="text-primary">Lab Visitor</p>
+                            <div class="team-social d-flex">
+                                <a class="btn btn-square rounded-circle me-2" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square rounded-circle me-2" href=""><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <a href="/team.html" class="btn btn-primary py-3 px-4">Meet More Faces</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Photo Gallery Start -->
+    <div class="container-fluid facts my-5 py-5" data-parallax="scroll" data-image-src="#">
+        <div class="container py-5">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-bold text-primary text-white">Photo Gallery</p>
+                <h1 class="display-5 mb-5 text-white">Explore Our Moments</h1>
+            </div>
+            <div class="owl-carousel gallery-carousel wow fadeInUp" data-wow-delay="0.3s">
+                <div class="gallery-item">
+                    <a href="img/home-gallery-1.jpg" data-lightbox="gallery" data-title="Gallery Image 1">
+                        <img class="img-fluid rounded" src="img/home-gallery-1.jpg" alt="Gallery Image 1">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/home-gallery-2.jpg" data-lightbox="gallery" data-title="Gallery Image 2">
+                        <img class="img-fluid rounded" src="img/home-gallery-2.jpg" alt="Gallery Image 2">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/home-gallery-3.jpg" data-lightbox="gallery" data-title="Gallery Image 3">
+                        <img class="img-fluid rounded" src="img/home-gallery-3.jpg" alt="Gallery Image 3">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/home-gallery-4.jpg" data-lightbox="gallery" data-title="Gallery Image 4">
+                        <img class="img-fluid rounded" src="img/home-gallery-4.jpg" alt="Gallery Image 4">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/home-gallery-5.jpg" data-lightbox="gallery" data-title="Gallery Image 5">
+                        <img class="img-fluid rounded" src="img/home-gallery-5.jpg" alt="Gallery Image 5">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/home-gallery-6.jpg" data-lightbox="gallery" data-title="Gallery Image 6">
+                        <img class="img-fluid rounded" src="img/home-gallery-6.jpg" alt="Gallery Image 6">
+                    </a>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="/gallery.html" class="btn btn-primary py-3 px-4">View More</a>
+            </div>
+        </div>
+    </div>
+    <!-- Photo Gallery End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="fs-5 fw-bold text-primary">Testimonial</p>
+                    <h1 class="display-5 mb-5">Insights from Our Guests!</h1>
+                    <p class="mb-4">"Honest feedback is the foundation of growth and improvement." ~Richard Branson</p>
+                    <!-- <a class="btn btn-primary py-3 px-4" href="">See More</a> -->
+                </div>
+                <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel">
+                        <!-- <div class="testimonial-item">
+                            <img class="img-fluid rounded mb-3" src="img/testimonial-1.jpg" alt="">
+                            <p class="fs-5">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore
+                                lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.
+                            </p>
+                            <h4>Client Name</h4>
+                            <span>Profession</span>
+                        </div> -->
+                        <div class="testimonial-item">
+                            <img class="img-fluid rounded mb-3" src="img/testimonial-2.jpg" alt="">
+                            <p class="fs-5">Visited Tinkering Lab by DOE team. The exhibits arranged in a systmatic
+                                manner and useful as well as corelate to Science Laws. The way of explanation of their
+                                expert is excellent. We enjoyed all the experiments of lab. Thanks to IIT MANDI.
+                            </p>
+                            <h4>DR. Sudhakar Guikwad</h4>
+                            <span>Deputy Director, DOE, Delhi</span>
+                        </div>
+                        <div class="testimonial-item">
+                            <img class="img-fluid rounded mb-3" src="img/testimonial-2.jpg" alt="">
+                            <p class="fs-5">Visited the Tinkereing Lab with atmost zeal and enthusiasm with the team of
+                                38 physics lacturers of DOE and a representative from SCERT Delhi. Everyone felt
+                                overjoyed with the way their queries were answered by those taking care of the lab. The
+                                teachers and I will have different perspective when we go back to their Institutes.
+                            </p>
+                            <h4>Hari Ram Ahalwa</h4>
+                            <span>Deputy Director, Directorate of Education, GNCT, Delhi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <a href="https://www.iitmandi.ac.in/" target="_blank">
+                        <img src="img/favicon.jpg" alt="IIT Mandi Logo" class="img-fluid mb-3"
+                            style="height: 80px; width: 80px;">
+                    </a>
+                    <a href="https://www.iitmandi.ac.in/" target="_blank">
+                        <h4 class="text-white mb-3">IIT MANDI</h4>
+                    </a>
+                    <p class="text-light fst-italic">"Imagination is more important than knowledge." ~ Albert Einstein
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Connect with Our Lab</h4>
+                    <p>Connect with us on social media to stay updated.</p>
+                    <div class="d-flex">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://twitter.com"><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://facebook.com"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://youtube.com"><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://linkedin.com"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="/about.html">About</a>
+                    <a class="btn btn-link" href="/rnd.html">R&D</a>
+                    <a class="btn btn-link" href="/demonstration.html">Demonstration</a>
+                    <a class="btn btn-link" href="/team.html">Team</a>
+                    <a class="btn btn-link" href="/gallery.html">Gallery</a>
+                    <a class="btn btn-link" href="/contact.html">Contact Us</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Tinkering Lab</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>North campus, IIT Mandi</p>
+                    <p class="mb-2"><i class="fa fa-map-pin me-3"></i>PIN: 175005</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i><a href="mailto:tinkeringlab@iitmandi.ac.in"
+                            class="text-light">tinkeringlab@iitmandi.ac.in</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="https://www.iitmandi.ac.in/" target="_blank">IIT Mandi</a>,
+                    2025, All Rights Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">Modified by Ruhan Das with <a class="border-bottom"
+                        href="https://htmlcodex.com">HTML Codex</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
